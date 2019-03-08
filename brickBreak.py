@@ -4,7 +4,7 @@ import sys
 
 def run_game():
 
-    # Start game and create game screen
+  # Start game and create game screen
     pygame.init()
     bb_settings = Settings()
     screen = pygame.display.set_mode((bb_settings.screen_width, bb_settings.screen_height))
@@ -23,7 +23,11 @@ def run_game():
         screen.fill(bb_settings.bg_color)
 
         # Make most recent screen visible
-        
+
         pygame.display.flip()
 
 run_game()
+
+
+
+# I wish I knew how to get this thing to work...
