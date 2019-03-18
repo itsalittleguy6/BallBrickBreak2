@@ -36,11 +36,12 @@ def run_game():
     
     
    # Start the main loop of the game
-
+    from sys import exit
     while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                sys.exit()
+                pygame.quit()
+                exit()
 
 
         # Re draw the screen during each pass through loop
