@@ -30,7 +30,8 @@ def run_game():
     bb_settings = Settings()
     screen = pygame.display.set_mode((bb_settings.screen_width, bb_settings.screen_height))
     pygame.display.set_caption("Ball Brick Break 2")
-    # Make a ball
+
+  # Make a ball
     ball = Ball(screen)
     
     
@@ -59,6 +60,8 @@ def run_game():
 
         pygame.display.flip()
 run_game()
+
+
 
 
 

@@ -21,7 +21,7 @@ class Ball():
         self.screen = screen
 
         #Load the ball image
-        self.image = pygame.image.load('Images/ball.bmp')
+        self.image = pygame.image.load('Images/ball.png')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 
